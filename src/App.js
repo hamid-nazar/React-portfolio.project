@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import {useMediaQuery} from "./hooks/useMediaQuery";
-import {Navbar} from "./scenes/Navbar";
-import {DotGroup} from "./scenes/DotGroup";
-import {Landing} from "./scenes/Landing";
+import {Navbar} from "./features/Navbar";
+import {DotGroup} from "./features/DotGroup";
+import {Landing} from "./features/Landing";
 import {LineGradient} from "./components/LineGradient";
-import {MySkills} from "./scenes/MySkills"
-import { Projects } from "./scenes/Projects";
-import { Testimonialsls } from "./scenes/Testimonials";
-import { Contact } from "./scenes/Contact";
-import { Footer } from "./scenes/Footer";
+import {MySkills} from "./features/MySkills"
+import { Projects } from "./features/Projects";
+import { Testimonialsls } from "./features/Testimonials";
+import { Contact } from "./features/Contact";
+import { Footer } from "./features/Footer";
 
 
 function App() {
